@@ -1,7 +1,7 @@
 # ScoobyXD.github.io
 
 # Embedded Software Engineer
-[collage](/assets/collage.png)
+![collage](/assets/collage.png)
 Hi! I'm Jonathan Kim, I'm a former full stack web developer wit 2 years of experience with a newfound passion for embedded systems!
 Working with hardware has been much more fun and every project I've done helped me learn a whole lot.
 I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
@@ -29,7 +29,7 @@ B.S. Management Information System| Santa Clara University (2018 - 2022)
 
 ## Projects
 ### STM32 Sentry Turret
-[turret](/assets/turret.png)
+![turret](/assets/turret.png)
 [Video Link To See It Shoot!](/assets/turretdemo.mp4)
 
 - Built a sentry turret that shoots Nerf bullets using a STM32, no HAL library, direct bit register configuration. 
@@ -38,7 +38,7 @@ B.S. Management Information System| Santa Clara University (2018 - 2022)
 - Modified Nerf gun, designed turret in Fusion 360, 3D-printed and assembled structure.
 
 ### First Project - Rover
-[rover](/assets/rover.png)
+![rover](/assets/rover.png)
 [Video Link To See It Move!](/assets/roverdemo.mp4)
 
 - A small rover that can zip around quickly using ESP32 UART commands (although it couldn't turn properly)
