@@ -1,34 +1,46 @@
 # ScoobyXD.github.io
 
 # Embedded Software Engineer
-
-[test](/assets/turretdemo.mp4)
+[collage](/assets/collage.png)
+Hi! I'm Jonathan Kim, I'm a former full stack web developer wit 2 years of experience with a newfound passion for embedded systems!
+Working with hardware has been much more fun and every project I've done helped me learn a whole lot.
+I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
 ## Education					       		
 M.S. Embedded Systems	| University of California (Sept. 2025 - Expected Dec. 2026)	 			        		
 B.S. Management Information System| Santa Clara University (2018 - 2022)
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
-- Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
-- Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
+**Embedded Software Engineer Contractor @ Mirae Opus (Sept 2025 - Present)**
+- Designed an ESP32-based speech-to-text and text-to-speech device integrated with LLM APIs over Wi-Fi. Implemented I²S interfaces for microphone, speaker, and amplifier, and I²C communication for a 9-axis IMU.
+- Implemented FreeRTOS and interrupts to create a scalable system for additional features.
+- Applied DMA transfer and transmitted audio/IMU data to a local web server providing a real-time dashboard of system activity. 
+- Designed a 4-layer PCB board housing an ESP32 C6 WROOM module, USB-C port, speaker amplifier, battery management, impedance matching, and various ESD, hot-plug, and over-current protections.
+- Worked in a Linux environment writing C/C++, not Arduino.
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
-- Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+
+**Full Stack Software Developer @Leidos QTC (Jan 2023 - Oct 2024)**
+- Developed and maintained .NET enterprise applications vital to the business’s core revenue stream, contributing to revenue growth from $500 million to over $1 billion annually. As a member of the team responsible for core user-facing applications, - I ensured seamless functionality during this period of rapid expansion.
+- Core applications facilitated appointment scheduling between medical providers and veterans worldwide. They also efficiently displayed relevant information and medical documents, many spanning thousands of pages.
+- Developed a robust backend using C#, frontend in JavaScript/jQuery, enhancing user experience for scheduling medical appointments.
+- Integrated a PDF compression service, significantly improving document processing speeds and resolving critical business bottlenecks. 
+- Developed 50% of the code for a feature that digitized labor-intensive medical paperwork, previously done manually. This improvement has enhanced the efficiency of care delivery for tens of thousands of veterans.
+
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### STM32 Sentry Turret
+[turret](/assets/turret.png)
+[Video Link To See It Shoot!](/assets/turretdemo.mp4)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+- Built a sentry turret that shoots Nerf bullets using a STM32, no HAL library, direct bit register configuration. 
+- Wrote and implement own drivers for PWM, UART, I2C, and interrupts without any libraries. 
+- Controlled turret through interrupt-based UART wireless keyboard commands. 
+- Modified Nerf gun, designed turret in Fusion 360, 3D-printed and assembled structure.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+### First Project - Rover
+[rover](/assets/rover.png)
+[Video Link To See It Move!](/assets/roverdemo.mp4)
 
-### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
-
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
-
-![pcbv1](/assets/pcbv1.png)
+- A small rover that can zip around quickly using ESP32 UART commands (although it couldn't turn properly)
+- Uses an ESP32, motor driver, 4 motors, and a 3D printed body I designed on Fusion 360
 
