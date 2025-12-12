@@ -32,7 +32,7 @@ M.S. Embedded Systems	| UC Irvine (Sept. 2025 - Expected Dec. 2026)
 
 ## Projects
 ### STM32 Sentry Turret
-![turret](/assets/turret.png)
+![turret](/assets/turretcropped.png)
 [Video Link To See It Shoot!](/assets/turretdemo.mp4)
 
 - Built a sentry turret that shoots Nerf bullets using a STM32, no HAL library, direct bit register configuration. 
@@ -41,7 +41,7 @@ M.S. Embedded Systems	| UC Irvine (Sept. 2025 - Expected Dec. 2026)
 - Modified Nerf gun, designed turret in Fusion 360, 3D-printed and assembled structure.
 
 ### First Project - Rover
-![rover](/assets/rover.png)
+![rover](/assets/rovercropped.png)
 [Video Link To See It Move!](/assets/roverdemo.mp4)
 
 - A small rover that can zip around quickly using ESP32 UART commands (although it doesn't turn properly)
