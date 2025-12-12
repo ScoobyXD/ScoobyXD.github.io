@@ -41,6 +41,6 @@ B.S. Management Information System| Santa Clara University (2018 - 2022)
 ![rover](/assets/rover.png)
 [Video Link To See It Move!](/assets/roverdemo.mp4)
 
-- A small rover that can zip around quickly using ESP32 UART commands (although it couldn't turn properly)
+- A small rover that can zip around quickly using ESP32 UART commands (although it doesn't turn properly)
 - Uses an ESP32, motor driver, 4 motors, and a 3D printed body I designed on Fusion 360
 
