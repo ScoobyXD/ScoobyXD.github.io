@@ -4,7 +4,7 @@
 ![collage](/assets/collage.png)
 
 Hello! I'm Jonathan Kim, I'm a former full stack web developer with 2 years of experience with a huge passion for embedded systems!
-Working with hardware has been much more fun and every project I've done helped me learn a whole lot.
+Working with hardware has been really fun and every project I've done taught me a whole lot.
 I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
 ## Education					       		
