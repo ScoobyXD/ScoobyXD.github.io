@@ -8,7 +8,7 @@ Working with hardware has been much more fun and every project I've done helped 
 I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
 ## Education					       		
-M.S. Embedded Systems	| UC Irvine (Sept. 2025 - Expected Dec. 2026)	 			        		
+M.S. Embedded Systems	| UC Irvine (Sept. 2025 - Expected Dec. 2026)
 B.S. Management Information System| Santa Clara University (2018 - 2022)
 
 ## Work Experience
