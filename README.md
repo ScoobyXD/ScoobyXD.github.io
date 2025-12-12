@@ -9,7 +9,7 @@ I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
 ## Education					       		
 M.S. Embedded Systems	| UC Irvine (Sept. 2025 - Expected Dec. 2026)
-B.S. Management Information System| Santa Clara University (2018 - 2022)
+    B.S. Management Information System| Santa Clara University (2018 - 2022)
 
 ## Work Experience
 **Embedded Software Engineer Contractor @ Mirae Opus (Sept 2025 - Present)**
