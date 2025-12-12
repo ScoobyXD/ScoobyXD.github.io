@@ -2,7 +2,7 @@
 
 # Embedded Software Engineer
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+[test](/assets/turretdemo.mp4)
 
 ## Education					       		
 M.S. Embedded Systems	| University of California (Sept. 2025 - Expected Dec. 2026)	 			        		
