@@ -19,6 +19,8 @@ M.S. Embedded Systems	| UC Irvine (Sept. 2025 - Expected Dec. 2026)
 - Designed a 4-layer PCB board housing an ESP32 C6 WROOM module, USB-C port, speaker amplifier, battery management, impedance matching, and various ESD, hot-plug, and over-current protections.
 - Worked in a Linux environment writing C/C++, not Arduino.
 
+![schematic](/assets/schematic.png)
+![pcb](/assets/pcbv1.png)
 
 **Full Stack Software Developer @Leidos QTC (Jan 2023 - Oct 2024)**
 - Developed and maintained .NET enterprise applications vital to the business’s core revenue stream, contributing to revenue growth from $500 million to over $1 billion annually. As a member of the team responsible for core user-facing applications, - I ensured seamless functionality during this period of rapid expansion.
