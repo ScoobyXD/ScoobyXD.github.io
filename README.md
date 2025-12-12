@@ -2,12 +2,12 @@
 
 # Embedded Software Engineer
 ![collage](/assets/collage.png)
-Hi! I'm Jonathan Kim, I'm a former full stack web developer wit 2 years of experience with a newfound passion for embedded systems!
+Hi! I'm Jonathan Kim, I'm a former full stack web developer with 2 years of experience with a huge passion for embedded systems!
 Working with hardware has been much more fun and every project I've done helped me learn a whole lot.
 I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
 ## Education					       		
-M.S. Embedded Systems	| University of California (Sept. 2025 - Expected Dec. 2026)	 			        		
+M.S. Embedded Systems	| UC Irvine (Sept. 2025 - Expected Dec. 2026)	 			        		
 B.S. Management Information System| Santa Clara University (2018 - 2022)
 
 ## Work Experience
