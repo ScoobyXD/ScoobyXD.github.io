@@ -11,7 +11,6 @@ I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 Email: Jonathankim829@email.com<br>
 Phone: "+1-909-657-6129"<br>
 [My Resume](/assets/EmbeddedFirmwareResume.pdf)<br>
-[Github](https://github.com/ScoobyXD)<br>
 [Linkedin](www.linkedin.com/in/jonathankim829)
 
 ## Education					       		
