@@ -7,7 +7,7 @@ Hello! I'm Jonathan Kim, I'm a former full stack web developer with 2 years of e
 Working with hardware has been really fun and every project I've done taught me a whole lot.
 I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
-**Contact**
+**Contact**<br>
 Email: Jonathankim829@email.com<br>
 Phone: "+1-909-657-6129"<br>
 [My Resume](/assets/EmbeddedFirmwareResume.pdf)<br>
