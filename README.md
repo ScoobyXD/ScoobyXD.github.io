@@ -8,10 +8,10 @@ Working with hardware has been really fun and every project I've done taught me 
 I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
 ## Contact
-[My Resume](/assets/EmbeddedFirmwareResume.pdf)
-Email: Jonathankim829@email.com
-Phone: "+1-909-657-6129"
-[Github](https://github.com/ScoobyXD)
+Email: Jonathankim829@email.com<br>
+Phone: "+1-909-657-6129"<br>
+[My Resume](/assets/EmbeddedFirmwareResume.pdf)<br>
+[Github](https://github.com/ScoobyXD)<br>
 [Linkedin](www.linkedin.com/in/jonathankim829)
 
 ## Education					       		
