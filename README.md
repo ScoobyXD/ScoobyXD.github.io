@@ -11,7 +11,7 @@ I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 Email: Jonathankim829@email.com<br>
 Phone: +1(909)657-6129<br>
 [My Resume](/assets/EmbeddedResume.pdf)<br>
-[Linkedin](www.linkedin.com/in/jonathankim829)
+[LinkedIn](https://www.linkedin.com/in/jonathankim829)
 
 ## Education					       		
 **M.S. Embedded Systems**	| UC Irvine (Sept. 2025 - Expected Dec. 2026)<br>
