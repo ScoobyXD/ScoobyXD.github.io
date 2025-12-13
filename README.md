@@ -7,6 +7,13 @@ Hello! I'm Jonathan Kim, I'm a former full stack web developer with 2 years of e
 Working with hardware has been really fun and every project I've done taught me a whole lot.
 I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
 
+## Contact
+[My Resume](/assets/EmbeddedFirmwareResume.pdf)
+Email: Jonathankim829@email.com
+Phone: "+1-909-657-6129"
+[Github](https://github.com/ScoobyXD)
+[Linkedin](www.linkedin.com/in/jonathankim829)
+
 ## Education					       		
 **M.S. Embedded Systems**	| UC Irvine (Sept. 2025 - Expected Dec. 2026)<br>
 **B.S. Management Information System** | Santa Clara University (2018 - 2022)
