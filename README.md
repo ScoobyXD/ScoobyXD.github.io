@@ -19,11 +19,12 @@ Phone: +1(909)657-6129<br>
 
 ## Work Experience
 **Embedded Software Engineer Contractor @ Mirae Opus (Sept 2025 - Present)**
-- Designed an ESP32-based speech-to-text and text-to-speech device integrated with LLM APIs over Wi-Fi. Implemented I²S interfaces for microphone, speaker, and amplifier, and I²C communication for a 9-axis IMU.
-- Implemented FreeRTOS and interrupts to create a scalable system for additional features.
-- Applied DMA transfer and transmitted audio/IMU data to a local web server providing a real-time dashboard of system activity. 
-- Designed a 4-layer PCB board housing an ESP32 C6 WROOM module, USB-C port, speaker amplifier, battery management, impedance matching, and various ESD, hot-plug, and over-current protections.
-- Worked in a Linux environment writing C/C++, not Arduino.
+- Developed bare metal C firmware on STM32 microcontroller, including custom I2C and UART drivers and IMU sensor integration.
+- Designed and debugged real-time embedded systems using FreeRTOS, including task scheduling, interrupts, and inter-task communication.
+- Implemented BLDC motor control for Hall-effect encoders, including a closed-loop PID control system for speed and position control.
+- Designed schematics and 4-layer PCB layout, including battery management circuitry, impedance control, and ESD, hot-plug, and over-current protection features.
+- Designed a system where a Linux-based controller communicated via UART with an STM32 for real-time control tasks.
+
 
 ![schematic](/assets/schematic.png)
 ![pcb](/assets/pcbv1.png)
