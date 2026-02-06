@@ -25,10 +25,6 @@ Phone: +1(909)657-6129<br>
 - Designed schematics and 4-layer PCB layout, including battery management circuitry, impedance control, and ESD, hot-plug, and over-current protection features.
 - Designed a system where a Linux-based controller communicated via UART with an STM32 for real-time control tasks.
 
-
-![schematic](/assets/schematic.png)
-![pcb](/assets/pcbv1.png)
-
 **Full Stack Software Developer @Leidos QTC (Jan 2023 - Oct 2024)**
 - Developed and maintained .NET enterprise applications vital to the business’s core revenue stream, contributing to revenue growth from $500 million to over $1 billion annually. As a member of the team responsible for core user-facing applications, - I ensured seamless functionality during this period of rapid expansion.
 - Core applications facilitated appointment scheduling between medical providers and veterans worldwide. They also efficiently displayed relevant information and medical documents, many spanning thousands of pages.
@@ -38,6 +34,11 @@ Phone: +1(909)657-6129<br>
 
 
 ## Projects
+## Smart Desktop Assistant Device
+A desktop device integrated with LLM that can talk, listen, and has a screen for a face
+![schematic](/assets/schematic.png)
+![pcb](/assets/pcbv1.png)
+
 ### STM32 Sentry Turret
 ![turret](/assets/turretcropped.png)
 [Video Link To See It Shoot!](/assets/turretdemo.mp4)
