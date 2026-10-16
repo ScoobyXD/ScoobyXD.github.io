@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan Kim | Software for the way people work</title>
+  <meta name="description" content="Jonathan Kim is a full-stack software developer who works directly with teams to build useful software. Explore MangoRTS for 180 Snacks, enterprise applications, and embedded systems.">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jonathan Kim | Software for the way people work">
+  <meta property="og:description" content="From employee conversations to full-stack applications and cloud infrastructure. Selected work by Jonathan Kim.">
+  <meta property="og:url" content="https://scoobyxd.github.io/">
+  <link rel="canonical" href="https://scoobyxd.github.io/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="identity" href="#top" aria-label="Jonathan Kim, home"><span class="monogram" aria-hidden="true">jk.</span><span>Jonathan Kim</span></a>
+    <nav aria-label="Primary"><a href="#work">Selected work</a><a href="#experience">Experience</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="accent-line" aria-hidden="true"></span> Full-stack software developer</p>
+        <h1>I build software<br> that fits <span>the work.</span></h1>
+        <p class="hero-intro">Hi, I’m Jonathan. I work directly with people to understand their operations, turn problems into software, and carry it through to deployment.</p>
+        <div class="actions"><a class="button primary" href="#mangorts">Explore MangoRTS <span aria-hidden="true">↘</span></a><a class="text-link" href="assets/Jonathan-Kim-Resume.pdf">View résumé <span class="file-type">PDF</span> <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-note">Business workflows. Full-stack systems. Hardware when it calls for it.</p>
+      </div>
+      <figure class="portrait"><img src="assets/profilepic.jpeg" alt="Jonathan Kim by the coast" width="3024" height="4032" fetchpriority="high"><figcaption><span>People first.<br> Build from there.</span><span class="portrait-mark" aria-hidden="true">↙</span></figcaption></figure>
+    </section>
+
+    <section class="work-section wrap" id="work">
+      <div class="section-heading"><p class="eyebrow">01 / Selected work</p><p>From understanding the problem to building the system.</p></div>
+      <article class="featured" id="mangorts">
+        <div class="case-heading"><div><p class="eyebrow">Featured project · 180 Snacks</p><h2>MangoRTS<span class="orange-dot">.</span></h2></div><p class="case-date">March — September 2026<br> Fullerton, California</p></div>
+        <div class="case-intro"><h3>One workspace for<br> the work between teams.</h3><div><p>I built an operations platform from scratch for a 50-person company. I worked beside employees to understand their workflows, translate feedback into requirements, and improve the product as those needs became clearer.</p><p>That meant owning more than the code: understanding the job, choosing what to build, and connecting the interface, backend, and deployment infrastructure.</p></div></div>
+        <div class="case-body">
+          <div class="capabilities"><h3>What I built</h3><ol role="list">
+            <li><span class="item-number" aria-hidden="true">01</span><div><h4>Shared communication</h4><p>Shared email inboxes that connect team conversations to the work they belong to.</p></div></li>
+            <li><span class="item-number" aria-hidden="true">02</span><div><h4>Visible processes</h4><p>Interactive process maps and task workflows with assignments, due dates, and status views.</p></div></li>
+            <li><span class="item-number" aria-hidden="true">03</span><div><h4>Work with context</h4><p>Timeline-based documents that connect discussions, attachments, and saved work history.</p></div></li>
+          </ol></div>
+          <figure class="system-map">
+            <div class="map-label"><span class="map-dot" aria-hidden="true"></span> System overview</div>
+            <div class="map-layer"><span class="layer-label">INTERFACE</span><strong>React + TypeScript</strong><span>Processes · Documents · Email</span></div>
+            <div class="connector" aria-hidden="true">↓</div>
+            <div class="map-split"><div class="map-layer"><span class="layer-label">APPLICATION</span><strong>Go APIs</strong></div><div class="map-layer"><span class="layer-label">DATA</span><strong>PostgreSQL</strong></div></div>
+            <div class="connector" aria-hidden="true">↓</div>
+            <div class="map-layer cloud"><span class="layer-label">INFRASTRUCTURE</span><strong>AWS</strong><span>ECS Fargate · S3 · CloudFront</span></div>
+            <figcaption>Infrastructure with Terraform.<br> Deployment pipelines with GitHub Actions.</figcaption>
+          </figure>
+        </div>
+        <div class="case-footer"><p><strong>My role</strong> Full Stack Software Developer<br> <span>A forward-deployed approach: work with the team, define the problem, build, and iterate.</span></p><a class="text-link light" href="https://github.com/ScoobyXD/MangoRTSDev">Explore the source <span aria-hidden="true">↗</span></a></div>
+      </article>
+
+      <div class="supporting-work">
+        <div class="supporting-intro"><p class="eyebrow">More at 180 Snacks</p><h3>Smaller tools.<br> Specific problems.</h3><p>Alongside the platform, I built tools for reporting and retail research.</p><a class="text-link" href="https://github.com/ScoobyXD/180SnacksDev">Explore these tools <span aria-hidden="true">↗</span></a></div>
+        <div class="tool-list">
+          <article><span class="tool-index" aria-hidden="true">A</span><div><h4>Retail reporting pipeline</h4><p>Report extraction, Excel normalization, and Airtable synchronization. Validation checks and visible run status make the processing steps easier to follow.</p><p class="tech-line">Playwright / Excel / Airtable</p></div></article>
+          <article><span class="tool-index" aria-hidden="true">B</span><div><h4>ShelfTag</h4><p>A mobile photo-capture tool for retail research. It extracts product and price information with Gemini and writes the records to Airtable.</p><p class="tech-line">PWA / Cloudflare Workers / Gemini / Airtable</p></div></article>
+        </div>
+      </div>
+      <article class="ctrl-project"><div><p class="eyebrow">Selected project · September 2026</p><h3>CTRL Loop</h3><p class="ctrl-subtitle">Making computer automation observable.</p></div><div><p>I built a computer automation platform with company accounts, reusable workflows, and Linux VMs. Its agent uses Jev and native accessibility data to identify controls and execute desktop actions.</p><p>Execution traces capture stage timings, model probabilities, token costs, and screenshots so agent behavior can be inspected and diagnosed.</p><p class="tech-line">Python / FastAPI / PostgreSQL / Jev</p><a class="text-link" href="https://github.com/ScoobyXD/ctrlloop">Explore CTRL Loop <span aria-hidden="true">↗</span></a></div></article>
+    </section>
+
+    <section class="experience-section wrap" id="experience">
+      <div class="section-heading"><p class="eyebrow">02 / Experience</p><h2>Built on real engineering work.</h2></div>
+      <article class="experience-row"><div><p class="eyebrow">January 2023 — October 2024</p><h3>Leidos QTC<br> Health Services</h3><p class="role">Full Stack Software Developer</p></div><div><p class="experience-lead">Enterprise software supporting medical appointments and care for veterans.</p><ul class="plain-list"><li>Built and maintained .NET applications for appointment scheduling and medical document workflows.</li><li>Developed C# backend services and JavaScript/jQuery interfaces used by medical providers and internal teams.</li><li>Integrated a PDF compression service to address document-processing bottlenecks.</li><li>Helped replace manual medical paperwork with a digital workflow, writing half of the code for the feature.</li></ul><p class="tech-line">C# / .NET / JavaScript / jQuery / SQL</p></div></article>
+      <article class="experience-row"><div><p class="eyebrow">Contract engineering</p><h3>Mirae Opus</h3><p class="role">Embedded Software Engineer</p></div><div><p class="experience-lead">Firmware, electronics, and the connection between them.</p><ul class="plain-list"><li>Developed bare-metal STM32 firmware, custom I2C and UART drivers, and IMU sensor integration.</li><li>Built real-time behavior with FreeRTOS tasks, interrupts, and inter-task communication.</li><li>Implemented closed-loop BLDC motor control using Hall-effect feedback and PID control.</li><li>Designed schematics and four-layer PCBs with battery management and circuit protection.</li><li>Connected a Linux controller to an STM32 over UART for real-time control.</li></ul><p class="tech-line">C / STM32 / FreeRTOS / PCB design / Linux</p></div></article>
+    </section>
+
+    <section class="hardware-section" id="hardware"><div class="wrap">
+      <div class="section-heading"><p class="eyebrow">03 / Beyond the browser</p><h2>I like building the hardware, too.</h2></div>
+      <div class="hardware-grid">
+        <article class="hardware-project"><a class="hardware-image pcb-image" href="assets/pcbv1.png"><img src="assets/pcbv1.png" alt="Open the full PCB layout for the smart desktop assistant" width="1547" height="987" loading="lazy" decoding="async"></a><div class="project-meta"><p class="eyebrow">Electronics / Connected devices</p><span aria-hidden="true">01</span></div><h3>Smart desktop assistant</h3><p>A desktop device with an LLM, voice interaction, and a screen for a face. This project brings together the circuit design and physical device.</p><div class="project-links"><a class="text-link" href="assets/schematic.png">View schematic <span aria-hidden="true">↗</span></a><a class="text-link" href="assets/pcbv1.png">View PCB layout <span aria-hidden="true">↗</span></a></div></article>
+        <article class="hardware-project"><a class="hardware-image" href="assets/turretdemo.mp4"><img src="assets/turretcropped.png" alt="Watch the STM32 Nerf turret demonstration" width="675" height="616" loading="lazy" decoding="async"><span class="video-label">Watch demo <span aria-hidden="true">↗</span></span></a><div class="project-meta"><p class="eyebrow">Firmware / Mechanical design</p><span aria-hidden="true">02</span></div><h3>STM32 sentry turret</h3><p>A Nerf turret controlled through interrupt-driven UART commands. I wrote the PWM, UART, and I2C drivers directly against the registers, without a HAL library.</p><p>I also designed the structure in Fusion 360, then printed and assembled it.</p><a class="text-link" href="assets/turretdemo.mp4">Watch demo <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </div></section>
+
+    <section class="education-section wrap"><p class="eyebrow">04 / Education</p><div><h2>University of California, Irvine</h2><p>Graduate coursework in Embedded Systems</p><p class="muted">September 2025 — March 2026 · Degree not completed</p></div><div><h2>Santa Clara University</h2><p>B.S. in Management Information Systems</p><p class="muted">September 2018 — June 2022</p></div></section>
+    <section class="contact-section wrap" id="contact"><p class="eyebrow">Let’s talk</p><div class="contact-grid"><h2>What does your<br> team need to build<span class="orange-dot">?</span></h2><div><p>I can help connect the business problem to the technical work. Tell me what your team does and where the process gets difficult.</p><a class="button primary" href="mailto:Jonathankim829@gmail.com">Email Jonathan <span aria-hidden="true">↗</span></a><a class="email-address" href="mailto:Jonathankim829@gmail.com">Jonathankim829@gmail.com</a></div></div></section>
+  </main>
+  <footer class="site-footer wrap"><p>Jonathan Kim <span>·</span> Software, systems, and the people who use them.</p><div><a href="https://github.com/ScoobyXD">GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/jonathankim829">LinkedIn <span aria-hidden="true">↗</span></a><a href="assets/Jonathan-Kim-Resume.pdf">View résumé <span aria-hidden="true">↗</span></a></div></footer>
+</body>
+</html>

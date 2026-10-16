@@ -1,56 +1,47 @@
-# ScoobyXD.github.io
+# Jonathan Kim — Personal site
 
-# Embedded Software Engineer
-![collage](/assets/collage.png)
+Public site: https://scoobyxd.github.io/
 
-Hello! I'm Jonathan Kim, I'm a former full stack web developer with 2 years of experience with a huge passion for embedded systems!
-Working with hardware has been really fun and every project I've done taught me a whole lot.
-I'm currently pursuing a M.S. in Embedded Systems at UC Irvine.
+A static portfolio focused on MangoRTS for 180 Snacks, enterprise software, and embedded projects.
 
-**Contact:**<br>
-Email: Jonathankim829@email.com<br>
-Phone: +1(909)657-6129<br>
-[My Resume](/assets/EmbeddedResume.pdf)<br>
-[LinkedIn](https://www.linkedin.com/in/jonathankim829)
+## Files
 
-## Education					       		
-**M.S. Embedded Systems**	| UC Irvine (Sept. 2025 - Expected Dec. 2026)<br>
-**B.S. Management Information System** | Santa Clara University (2018 - 2022)
+- `index.html`: Content, metadata, and navigation.
+- `assets/site.css`: Responsive layout, colors, typography, and print styles.
+- `assets/Jonathan-Kim-Resume.pdf`: The supplied software engineering résumé, unchanged.
+- `assets/`: Existing photographs, project images, and demonstrations. Unused legacy assets remain at their existing URLs.
+- `.nojekyll`: Serves static files without Jekyll processing.
 
-## Work Experience
-**Embedded Software Engineer Contractor @ Mirae Opus (Sept 2025 - Present)**
-- Developed bare metal C firmware on STM32 microcontroller, including custom I2C and UART drivers and IMU sensor integration.
-- Designed and debugged real-time embedded systems using FreeRTOS, including task scheduling, interrupts, and inter-task communication.
-- Implemented BLDC motor control for Hall-effect encoders, including a closed-loop PID control system for speed and position control.
-- Designed schematics and 4-layer PCB layout, including battery management circuitry, impedance control, and ESD, hot-plug, and over-current protection features.
-- Designed a system where a Linux-based controller communicated via UART with an STM32 for real-time control tasks.
+## Preview
 
-**Full Stack Software Developer @Leidos QTC (Jan 2023 - Oct 2024)**
-- Developed and maintained .NET enterprise applications vital to the business’s core revenue stream, contributing to revenue growth from $500 million to over $1 billion annually. As a member of the team responsible for core user-facing applications, - I ensured seamless functionality during this period of rapid expansion.
-- Core applications facilitated appointment scheduling between medical providers and veterans worldwide. They also efficiently displayed relevant information and medical documents, many spanning thousands of pages.
-- Developed a robust backend using C#, frontend in JavaScript/jQuery, enhancing user experience for scheduling medical appointments.
-- Integrated a PDF compression service, significantly improving document processing speeds and resolving critical business bottlenecks. 
-- Developed 50% of the code for a feature that digitized labor-intensive medical paperwork, previously done manually. This improvement has enhanced the efficiency of care delivery for tens of thousands of veterans.
+No install or build step is required. From this directory, run:
 
+```sh
+python -m http.server 8000 --bind 127.0.0.1
+```
 
-## Projects
-## Smart Desktop Assistant Device
-A desktop device integrated with LLM that can talk, listen, and has a screen for a face
-![schematic](/assets/schematic.png)
-![pcb](/assets/pcbv1.png)
+Open http://127.0.0.1:8000/. The page also works directly from `index.html` because local assets use relative paths.
 
-### STM32 Sentry Turret
-![turret](/assets/turretcropped.png)
-[Video Link To See It Shoot!](/assets/turretdemo.mp4)
+## Deploy
 
-- Built a sentry turret that shoots Nerf bullets using a STM32, no HAL library, direct bit register configuration. 
-- Wrote and implement own drivers for PWM, UART, I2C, and interrupts without any libraries. 
-- Controlled turret through interrupt-based UART wireless keyboard commands. 
-- Modified Nerf gun, designed turret in Fusion 360, 3D-printed and assembled structure.
+GitHub Pages uses the root of `main`. Changes become public when merged into that branch. Review the page and its linked résumé before merging.
 
-### First Project - Rover
-![rover](/assets/rovercropped.png)
-[Video Link To See It Move!](/assets/roverdemo.mp4)
+## Content notes
 
-- A small rover that can zip around quickly using ESP32 UART commands (although it doesn't turn properly)
-- Uses an ESP32, motor driver, 4 motors, and a 3D printed body I designed on Fusion 360
+- The 180 Snacks title and March–September 2026 dates follow the supplied résumé.
+- The website describes a forward-deployed approach. It does not replace the formal employment title.
+- UC Irvine is graduate coursework from September 2025 to March 2026, with no degree completed, per Jonathan's clarification.
+- The résumé PDF remains unchanged. Its education heading reads “Master of Science,” so it may need a separate wording update.
+- The end date of the Mirae Opus contract is unconfirmed. The page omits that date.
+- Repository documentation supports project descriptions but does not establish measured savings or adoption. The page claims neither.
+
+## Sources
+
+- Supplied software engineering résumé and Jonathan's corrections.
+- Previous portfolio content in Git history, including the embedded role and retained hardware projects.
+- [MangoRTS](https://github.com/ScoobyXD/MangoRTSDev): Product modules and cloud infrastructure.
+- [180 Snacks tools](https://github.com/ScoobyXD/180SnacksDev): Reporting, normalization, and ShelfTag documentation.
+
+## Review
+
+Check narrow and wide layouts, keyboard focus, section links, résumé, email address, source links, schematic, PCB, and turret video. Confirm that education does not imply an awarded master's degree.
